@@ -8,3 +8,11 @@ This dataset was made available by Nikhil Bhathi. He made the dataset by scrappi
 The dataset has 42 columns including the Job title, Salary Estimate, Job Description, Rating, Company, Location, Company , Headquarters, , , any Size, Company Founded Date, Type of Ownership, Industry, Sector, Revenue, Competitors. There are 742 rows.
 
 **Our Question**
+
+**Technologies used**
+We created a repository named Final Project Github
+Machine learning
+Building the database using Jupyter notebook
+
+
+**Description of the communication protocol**
