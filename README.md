@@ -32,5 +32,5 @@ Jupyter notebook was used to create the dataframe. The csv was read into python 
 
 
 
-In the final project there are four roles responsible for different portion of the project. The JHoward branch is the square role and is responsible for creating a simple machine learning model. The machine learning model selected was a supervised Logistic Regression model. This model was selected because we are looking to see we are able to predict having 5 or more skillset equals a higher salary. The purpose of this analysis is to provide insight to data analyst students that would help direct their career path or educational journey. 
+
 
