@@ -19,21 +19,9 @@ We will implement the supervised Logistic Regression machine learning model with
 - How does the model work?
 
 **Database**
-Jupyter notebook was used to create the database. The csv was read into python using pandas
-A provisional database that mimics the final database structure is presented
+Jupyter notebook was used to create the dataframe. The csv was read into python using pandas. The database will be created using PostgreSQL and pgAdmin to present a provisional database that mimics the final database structure.
 
-Team members present a provisional
-database that stands in for the final
-database and accomplishes the
-following:
-✓ Sample data that mimics the
-expected final database structure or
-schema ✓ Draft machine learning module is
-connected to the provisional database
-**Technologies used**
-We created a repository named Final Project Github
-Machine learning
-Building the database using Jupyter notebook
+
 
 
 
