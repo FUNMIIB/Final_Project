@@ -10,6 +10,7 @@
 - Questions They Hope to Answer With The Data: If having 5 or more skillsets equals a higher salary.
 
 **Description of the communication protocol**
+For this analysis, API calls, AWS, and web scrapping were not used. We will use python and pandas in jupyter notebook to create a database and implement machine learning to predict data scientist salary based on multiple skillsets. GitHub will be used to house the repository and share files and code among the project team members. Each member will have a branch with each team member having at least four commits for the first segment of the project.
 
 
 **Machine Learning Model**
@@ -19,21 +20,9 @@ We will implement the supervised Logistic Regression machine learning model with
 - How does the model work?
 
 **Database**
-Jupyter notebook was used to create the database. The csv was read into python using pandas
-A provisional database that mimics the final database structure is presented
+Jupyter notebook was used to create the dataframe. The csv was read into python using pandas. The database will be created using PostgreSQL and pgAdmin to present a provisional database that mimics the final database structure.
 
-Team members present a provisional
-database that stands in for the final
-database and accomplishes the
-following:
-✓ Sample data that mimics the
-expected final database structure or
-schema ✓ Draft machine learning module is
-connected to the provisional database
-**Technologies used**
-We created a repository named Final Project Github
-Machine learning
-Building the database using Jupyter notebook
+
 
 
 
