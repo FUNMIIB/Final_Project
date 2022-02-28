@@ -10,6 +10,7 @@
 - Questions They Hope to Answer With The Data: If having 5 or more skillsets equals a higher salary.
 
 **Description of the communication protocol**
+For this analysis, API calls, AWS, and web scrapping were not used. We will use python and pandas in jupyter notebook to create a database and implement machine learning to predict data scientist salary based on multiple skillsets. GitHub will be used to house the repository and share files and code among the project team members. Each member will have a branch with each team member having at least four commits for the first segment of the project.
 
 
 **Machine Learning Model**
