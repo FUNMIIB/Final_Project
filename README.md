@@ -13,7 +13,7 @@
 
 
 **Machine Learning Model**
-We will implement the supervised Logistic Regression machine learning model with the data scientist salary dataset. This model will allow us to create training and test groups from the dataset to predict if having 5 or more skillsets equals higher salary. This analysis will also answer the following questions: 
+We will implement the supervised Linear Regression machine learning model with the data scientist salary dataset. This model will allow us to create training and test groups from the dataset to predict if having 5 or more skillsets equals higher salary. This analysis will also answer the following questions: 
 - How are we training the model? 
 - What is the model's accuracy score? 
 - How does the model work?
@@ -36,12 +36,4 @@ Machine learning
 Building the database using Jupyter notebook
 
 
-
-
-
-
-
-
-
-In the final project there are four roles responsible for different portion of the project. The JHoward branch is the square role and is responsible for creating a simple machine learning model. The machine learning model selected was a supervised Logistic Regression model. This model was selected because we are looking to see we are able to predict having 5 or more skillset equals a higher salary. The purpose of this analysis is to provide insight to data analyst students that would help direct their career path or educational journey. 
 
