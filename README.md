@@ -7,6 +7,10 @@
 
 - Description of Their Source of Data: The compiled data was found on kaggle but the dataset was scraped from the Glassdoor website using Selenium scrapper by Nikhil Bhathi a nuclear scientist at Nova Scotia. After scrapping the raw data, the duplicated rows was removed which reduced the records from 1000 to 742. The dataset has 42 columns including the Job title, Salary Estimate, Job Description, Rating, Company, Location, Company , Headquarters, etc 
 
+**Second and third segment addition**
+Following the instructor's feedback from our first segment deliverables, we have modified our approach:
+- The machine learning model we will be employing is Linear Regression model. This model would allow us to predict how much data scientists would get paid given certain skill sets.
+
 - Questions They Hope to Answer With The Data: If having 5 or more skillsets equals a higher salary.
 
 **Description of the communication protocol**
@@ -22,7 +26,7 @@ Bjorn_Final is in the circle role  and is in charge of the mockup database using
 
 **Second and third segment addition**
 - We work together during class period on the project discussing the best approach to improve training and testing scores
-- On a number of occasions during class period, we have sought help and guidance from LAs and the instructor on the different steps during prepocessing of the data. For example, the LA helped us when we needed to convert categorical to numerical values and also during selection of the features of column that has highest correlation with the target. We employed Random forest feature importance to process the data for feature of importance in order to drop unimportance columns.
+- On a number of occasions during class period, we have sought help and guidance from LAs and the instructor on the different steps during prepocessing of the data. For example, the LA helped us when we needed to convert categorical to numerical values and also during selection of the features of column that has highest correlation with the target. We employed Random forest feature importance to process the data for feature of importance in order to drop unimportant columns.
 - We also meet weekly outside of class via zoom to work on weekly deliverables and to discuss the different aspects of the project.
 - We constantly communicate on Slack to update ourselves on the progress of the project
 
