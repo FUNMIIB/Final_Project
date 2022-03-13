@@ -7,11 +7,8 @@
 
 - Description of Their Source of Data: The compiled data was found on kaggle but the dataset was scraped from the Glassdoor website using Selenium scrapper by Nikhil Bhathi a nuclear scientist at Nova Scotia. After scrapping the raw data, the duplicated rows was removed which reduced the records from 1000 to 742. The dataset has 42 columns including the Job title, Salary Estimate, Job Description, Rating, Company, Location, Company , Headquarters, etc 
 
-**Second and third segment addition**
-Following the instructor's feedback from our first segment deliverables, we have modified our approach:
-- The machine learning model we will be employing is Linear Regression model. This model would allow us to predict how much data scientists would get paid given certain skill sets.
-
 - Questions They Hope to Answer With The Data: If having 5 or more skillsets equals a higher salary.
+
 
 **Description of the communication protocol**
 For this analysis, API calls, AWS, and web scrapping were not used. We will use python and pandas in jupyter notebook to create a database and implement machine learning to predict data scientist salary based on multiple skillsets. GitHub will be used to house the repository and share files and code among the project team members. Each member will have a branch with each team member having at least four commits for the first segment of the project. 
@@ -35,6 +32,10 @@ We will implement the supervised Logistic Regression machine learning model with
 - How are we training the model? 
 - What is the model's accuracy score? 
 - How does the model work?
+
+**Second and third segment addition**
+Following the instructor's feedback from our first segment deliverables, we have modified our approach:
+- The machine learning model we will be employing is Linear Regression model. This model would allow us to predict how much data scientists would get paid given certain skill sets.
 
 **Database**
 Jupyter notebook was used to create the dataframe. The csv was read into python using pandas. The database will be created using PostgreSQL and pgAdmin to present a provisional database that mimics the final database structure.
