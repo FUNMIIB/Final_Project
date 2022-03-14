@@ -9,7 +9,10 @@
 
 - Questions They Hope to Answer With The Data: If having 5 or more skillsets equals a higher salary.
 
-
+**Second and third segment addition**
+Our question was modified as follows
+How much would a data scientist get paid given certain skills set
+ 
 **Description of the communication protocol**
 For this analysis, API calls, AWS, and web scrapping were not used. We will use python and pandas in jupyter notebook to create a database and implement machine learning to predict data scientist salary based on multiple skillsets. GitHub will be used to house the repository and share files and code among the project team members. Each member will have a branch with each team member having at least four commits for the first segment of the project. 
 
@@ -33,9 +36,23 @@ We will implement the supervised Logistic Regression machine learning model with
 - What is the model's accuracy score? 
 - How does the model work?
 
+
 **Second and third segment addition**
-Following the instructor's feedback from our first segment deliverables, we have modified our approach:
+Following the instructor's feedback from our first segment deliverables, we have modified our approach and question:
 - The machine learning model we will be employing is Linear Regression model. This model would allow us to predict how much data scientists would get paid given certain skill sets.
+- Several steps were taken to improve training and testing scores
+    - The data was read and visualized in Jupyter notebook as seen in the image below
+
+    ![Final_Project_image1](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image1.png)
+
+    - We droped unimportant columns, got the shape of the data, verified that there is no empty space in the columns, and used the .describe to get the overall statistics of the data as shown below
+
+    ![Final_Project_image2](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image2.png)
+
+    - Preprocessing the data also included: Transforming the categorical data to numeric data by get dummies as shown below:
+
+    ![Final_Project_image3](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image3.png)
+
 
 **Database**
 Jupyter notebook was used to create the dataframe. The csv was read into python using pandas. The database will be created using PostgreSQL and pgAdmin to present a provisional database that mimics the final database structure.
