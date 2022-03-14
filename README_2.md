@@ -9,10 +9,10 @@
 
 - Questions They Hope to Answer With The Data: If having 5 or more skillsets equals a higher salary.
 
-**Second and third segment addition**
+**Second segment addition**
 Our question was modified as follows
 How much would a data scientist get paid given certain skills set
- 
+
 **Description of the communication protocol**
 For this analysis, API calls, AWS, and web scrapping were not used. We will use python and pandas in jupyter notebook to create a database and implement machine learning to predict data scientist salary based on multiple skillsets. GitHub will be used to house the repository and share files and code among the project team members. Each member will have a branch with each team member having at least four commits for the first segment of the project. 
 
@@ -24,7 +24,7 @@ The X role is mandatory for our team because we are a team of four. rasaq147-pat
 
 Bjorn_Final is in the circle role  and is in charge of the mockup database using a SQL-based database and including an ERD of the database.
 
-**Second and third segment addition**
+**Second segment addition**
 - We work together during class period on the project discussing the best approach to improve training and testing scores
 - On a number of occasions during class period, we have sought help and guidance from LAs and the instructor on the different steps during prepocessing of the data. For example, the LA helped us when we needed to convert categorical to numerical values and also during selection of the features of column that has highest correlation with the target. We employed Random forest feature importance to process the data for feature of importance in order to drop unimportant columns.
 - We also meet weekly outside of class via zoom to work on weekly deliverables and to discuss the different aspects of the project.
@@ -37,15 +37,16 @@ We will implement the supervised Logistic Regression machine learning model with
 - How does the model work?
 
 
-**Second and third segment addition**
+**Second segment addition**
 Following the instructor's feedback from our first segment deliverables, we have modified our approach and question:
 - The machine learning model we will be employing is Linear Regression model. This model would allow us to predict how much data scientists would get paid given certain skill sets.
 - Several steps were taken to improve training and testing scores
-    - The data was read and visualized in Jupyter notebook as seen in the image below
+    - After reading the data into Jupyter notebook using pandas,
+    The first step in the model is data exploration which involves visualizing the data, getting the shape of the data, checking for missing values, and using the .describe to get the overall statistics of the data as shown below
 
-    ![Final_Project_image1](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image1.png)
+   ![Final_Project_image1](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image1.png)
 
-    - We droped unimportant columns, got the shape of the data, verified that there is no empty space in the columns, and used the .describe to get the overall statistics of the data as shown below
+    The next step is preprocessing of the data which includes dropping unimportant columns,  
 
     ![Final_Project_image2](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image2.png)
 
