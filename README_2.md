@@ -3,8 +3,14 @@
 
 - Presentation Topic: Data Scientist Salary
 
+**Limitation**
+The limitation of our model is that it is overfitting which might introduce some bias
+
+**Description of feature engineering**
+We are using the method of feature extraction to remove 'slash' and any spaces.
+
 **Second segment addition**
-Our question was modified as follows: How much would a data scientist get paid given certain skills set. Also, the machine learning model to be used is Linear Regression model
+- Questions They Hope to Answer With The Data: Our question was modified as follows: How much would a data scientist get paid given certain skills set. Also, the machine learning model to be used is Linear Regression model
 
 **First segment response**
 - Reason Why They Selected Their Topic: The machine learning model selected was a supervised Logistic Regression model. This model was selected because we are looking to see if we are able to predict having 5 or more skillsets equals a higher salary.
@@ -43,31 +49,31 @@ Following the instructor's feedback from our first segment deliverables, we have
     - After reading the data into Jupyter notebook using pandas,
     - The first step in the model is **data exploration** which involves visualizing the data, getting the shape of the data, checking for missing values, and using the .describe to get the overall statistics of the data as shown below
 
-   ![Final_Project_image1](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image1.png)
+   ![Final_Project_image1](https://github.com/FUNMIIB/Final_Project/blob/main/Resources/Final_Project_image1.png)
 
-    - The next step is preprocessing of the data which includes dropping unimportant columns and transforming the categorical data to numeric data by get dummies as shown below:
+    - The next step is **preprocessing** of the data which includes dropping unimportant columns and transforming the categorical data to numeric data by get dummies as shown below:
  
-  ![Final_Project_image2](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image2.png)
+  ![Final_Project_image2](https://github.com/FUNMIIB/Final_Project/blob/main/Resources/Final_Project_image2.png)
 
     - In step 3, we separated the Features(X) from the Target(Y) using the code below:
 
-    ![Final_Project_image3](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image3.png)
+    ![Final_Project_image3](https://github.com/FUNMIIB/Final_Project/blob/main/Resources/Final_Project_image3.png)
 
-    - Next, we split the data into training and testing and created the model by using LinearRegression as shown below:
+    - Next, we used the **70/30%** method to split the data for training and testing and created the model by using LinearRegression as shown below:
 
-    ![Final_Project_image4](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image4.png)
+    ![Final_Project_image4](https://github.com/FUNMIIB/Final_Project/blob/main/Resources/Final_Project_image4.png)
 
     - We then predected and scored the test set results using the codes below:
 
-    ![Final_Project_image5](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image5.png)
+    ![Final_Project_image5](https://github.com/FUNMIIB/Final_Project/blob/main/Resources/Final_Project_image5.png)
 
-    - Next, RandomForestRegressor was used to select all the features of columns that have highest correlation with the target and Feature_importances was used to remove all unimportant columns as shown below
+    - Next, **RandomForestRegressor** was used to select all the features of columns that have highest correlation with the target and Feature_importances was used to remove all unimportant columns as shown below
 
-    ![Final_Project_image6](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image6.png)
+    ![Final_Project_image6](https://github.com/FUNMIIB/Final_Project/blob/main/Resources/Final_Project_image6.png)
 
     Finally, we ploted a horizontal bar graph as shown below:
 
-    ![Final_Project_image7](https://github.com/FUNMIIB/Final_Project/blob/main/Final_Project_image7.png)
+    ![Final_Project_image7](https://github.com/FUNMIIB/Final_Project/blob/main/Resources/Final_Project_image7.png)
 
 **First segment response**
 We will implement the supervised Logistic Regression machine learning model with the data scientist salary dataset. This model will allow us to create training and test groups from the dataset to predict if having 5 or more skillsets equals higher salary. This analysis will also answer the following questions: 
@@ -77,16 +83,3 @@ We will implement the supervised Logistic Regression machine learning model with
 
 **Database**
 Jupyter notebook was used to create the dataframe. The csv was read into python using pandas. The database will be created using PostgreSQL and pgAdmin to present a provisional database that mimics the final database structure.
-
-
-
-
-
-
-
-
-
-
-
-
-
