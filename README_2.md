@@ -83,17 +83,3 @@ We will implement the supervised Logistic Regression machine learning model with
 
 **Database**
 Jupyter notebook was used to create the dataframe. The csv was read into python using pandas. The database will be created using PostgreSQL and pgAdmin to present a provisional database that mimics the final database structure.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
