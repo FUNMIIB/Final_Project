@@ -2,12 +2,25 @@
 **Presentation**
 
 - Presentation Topic: Data Scientist Salary
+**Third segment addition**
+
+**Jupyter Notebook Link**
+http://localhost:8888/notebooks/Linear%20Regression%20Machine%20Learning%20Model.ipynb
 
 **Limitation**
 The limitation of our model is that it is overfitting which might introduce some bias
 
 **Description of feature engineering**
 We are using the method of feature extraction to remove 'slash' and any spaces.
+
+**Link to Google Slides draft presentation**
+
+https://docs.google.com/presentation/d/1x0JC5fCtSMdJ1AgiCAaG_mN5k1WnZFaPY5DBJZMANQM/edit?usp=sharing
+
+**Dashboard**
+The dashboard consists of 6 tiles. The first two tiles in the upper left corner provide the Avg Salary ranges that were used in our data set. Below that we have a title that list all the industries that are part of our data set. At the bottom left we have a packed bubble tile for the industries that is weighted based on the Avg Salary information for each industry. The top tile on the right is a symbol map of the US. This map provides details on the Avg Salary be location. This map is also weighted be Salary to make the bubble bigger and darker in shade for the higher salaries. The bottom right tile provides the Avg Salary by sector and color codes the higher salaries darker.
+The dashboard also includes radio button filters that allow you to select the skills that you would like information displayed for. Changes to these selections will adjust all the graphs on the dashboard.
+https://public.tableau.com/app/profile/bjorn.dennisseur/viz/DataScientist_16477823775010/Dashboard1?publish=yes
 
 **Second segment addition**
 - Questions They Hope to Answer With The Data: Our question was modified as follows: How much would a data scientist get paid given certain skills set. Also, the machine learning model to be used is Linear Regression model
@@ -66,10 +79,17 @@ Following the instructor's feedback from our first segment deliverables, we have
     - We then predected and scored the test set results using the codes below:
 
     ![Final_Project_image5](https://github.com/FUNMIIB/Final_Project/blob/main/Resources/Final_Project_image5.png)
-
+    
+    - The resulting Training Score is 0.5774150405740237 while the 
+    Testing Score is -7.299880743582402e+16
+    
     - Next, **RandomForestRegressor** was used to select all the features of columns that have highest correlation with the target and Feature_importances was used to remove all unimportant columns as shown below
 
     ![Final_Project_image6](https://github.com/FUNMIIB/Final_Project/blob/main/Resources/Final_Project_image6.png)
+
+    - Random Forest Feature Importance returned the scores as follows: 
+    model score on training data: 0.9431295661248498
+    model score on testing data: 0.6492095833697138
 
     Finally, we ploted a horizontal bar graph as shown below:
 
